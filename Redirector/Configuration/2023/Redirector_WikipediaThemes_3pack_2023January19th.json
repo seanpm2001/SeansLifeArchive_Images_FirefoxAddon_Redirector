@@ -1,0 +1,57 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2023-01-20T00:35:25.872Z",
+    "redirects": [
+        {
+            "description": "Wikipedia timeless theme (articles only)",
+            "exampleUrl": "https://en.wikipedia.org/wiki/Test/",
+            "exampleResult": "https://en.wikipedia.org/wiki/Test/?useskin=timeless",
+            "error": null,
+            "includePattern": "http*://*.wikipedia.org/wiki/*",
+            "excludePattern": "http*://*.wikipedia.org/*?useskin=*",
+            "patternDesc": "Redirects to the timeless theme on Wikipedia. Doesn't work with editing pages, anchor links, and viewing page history.",
+            "redirectUrl": "http$1://$2.wikipedia.org/wiki/$3?useskin=timeless",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Wikipedia vector classic theme (articles only)",
+            "exampleUrl": "https://en.wikipedia.org/wiki/Test/",
+            "exampleResult": "https://en.wikipedia.org/wiki/Test/?useskin=vector",
+            "error": null,
+            "includePattern": "http*://*.wikipedia.org/wiki/*",
+            "excludePattern": "http*://*.wikipedia.org/*?useskin=*",
+            "patternDesc": "Redirects to the pre-2023 vector theme on Wikipedia. Doesn't work with editing pages, anchor links, and viewing page history.",
+            "redirectUrl": "http$1://$2.wikipedia.org/wiki/$3?useskin=vector",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Wikipedia monobook theme (articles only)",
+            "exampleUrl": "https://en.wikipedia.org/wiki/Test/",
+            "exampleResult": "https://en.wikipedia.org/wiki/Test/?useskin=monobook",
+            "error": null,
+            "includePattern": "http*://*.wikipedia.org/wiki/*",
+            "excludePattern": "Wikipedia Monobook theme",
+            "patternDesc": "Redirects to the monobook theme on Wikipedia. Doesn't work with editing pages, anchor links, and viewing page history.",
+            "redirectUrl": "http$1://$2.wikipedia.org/wiki/$3?useskin=monobook",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}

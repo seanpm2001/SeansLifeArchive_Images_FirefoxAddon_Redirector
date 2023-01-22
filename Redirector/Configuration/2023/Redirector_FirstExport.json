@@ -1,0 +1,57 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2023-01-19T04:53:56.669Z",
+    "redirects": [
+        {
+            "description": "https://https://en.wikipedia.org/wiki/",
+            "exampleUrl": "https://en.wikipedia.org/wiki/",
+            "exampleResult": "https://en.wikipedia.org/wiki/?useskin=monobook",
+            "error": null,
+            "includePattern": "https://en.wikipedia.org/wiki/",
+            "excludePattern": "",
+            "patternDesc": "Wikipedia fix ",
+            "redirectUrl": "https://en.wikipedia.org/wiki/?useskin=monobook",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Wikipedia redirect test 2",
+            "exampleUrl": "https://en.wikipedia.org/wiki/",
+            "exampleResult": "?useskin=monobook",
+            "error": null,
+            "includePattern": "https://en.wikipedia.org/wiki/",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "?useskin=monobook",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Anti-Google",
+            "exampleUrl": "https://google.com",
+            "exampleResult": "https://duckduckgo.com",
+            "error": null,
+            "includePattern": "https://google.com",
+            "excludePattern": "",
+            "patternDesc": "In case you ever make the mistake",
+            "redirectUrl": "https://duckduckgo.com",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
